@@ -1,4 +1,4 @@
-package pages.PageObjectModel;
+package com.WebAutomationframe.Page.PageObjectModel;
 
 public class DashboardPage_POM {
 

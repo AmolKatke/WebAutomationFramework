@@ -1,10 +1,10 @@
-package test_code.test;
+package com.WebAutomationframe.test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.PageObjectModel.LoginPage_POM;
+import com.WebAutomationframe.Page.PageObjectModel.LoginPage_POM;
 
 public class TestVWOLogin_POM {
     @Test

@@ -4,8 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cc5745e-255c-4431-8cd2-05ca84cf48c7" name="Changes" comment="Basic Page object model">
+    <list default="true" id="c1648841-7045-4e10-a39c-0aa6992718e7" name="Changes" comment="frameWork">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/Page/pageFatory/LoginPage_PF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/base/CommonToAllPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/driver/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/driver/DriverManagerTL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/utils/Propertyreader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/utils/utilsExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/base/CommonToAllTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/test/StaleElementException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/test/TestVWOLogin_PF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/test/TestVWOLogin_PF_DM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/test/qa/TestVWOLogin_PF_DM_QA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-qa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageObjectModel/DashboardPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/Page/PageObjectModel/DashboardPage_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageObjectModel/LoginPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/Page/PageObjectModel/LoginPage_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/utilsExcel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_code/test/TestVWOLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/test/TestVWOLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_code/test/TestVWOLogin_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/test/TestVWOLogin_POM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,38 +45,49 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2kYjwfpaCiG60PN0CJQpp87JlC1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2kbISu0NDhtqTFDRxoAgFT5AgtO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestVWOLogin_POM.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestVWOLogin_POM.testLoginNegativeVWO.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng-qa.xml.executor": "Run",
+    "TestNG.TestVWOLogin_PF.executor": "Run",
+    "TestNG.TestVWOLogin_PF.testLoginNegativeVWO.executor": "Run",
+    "TestNG.TestVWOLogin_PF_DM.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/91844/IdeaProjects/WebAutomationFramework"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.WebAutomationframe.driver" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\91844\IdeaProjects\WebAutomationFramework" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.WebAutomationframe.base" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.WebAutomationframe.test.qa" />
+      <recent name="com.WebAutomationframe.driver" />
       <recent name="test_code.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng.xml">
-    <configuration name="C:/Users/91844/IdeaProjects/WebAutomationFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng-qa.xml">
+    <configuration name="C:/Users/91844/IdeaProjects/WebAutomationFramework/testng-qa.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebAutomationFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-qa.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -62,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVWOLogin_POM" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestVWOLogin_PF" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebAutomationFramework" />
       <extension name="coverage">
         <pattern>
@@ -71,7 +104,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test_code.test" />
-      <option name="MAIN_CLASS_NAME" value="test_code.test.TestVWOLogin_POM" />
+      <option name="MAIN_CLASS_NAME" value="test_code.test.TestVWOLogin_PF" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -79,7 +112,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVWOLogin_POM.testLoginNegativeVWO" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestVWOLogin_PF_DM" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.WebAutomationframe.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.WebAutomationframe.test" />
+      <option name="MAIN_CLASS_NAME" value="com.WebAutomationframe.test.TestVWOLogin_PF_DM" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVWOLogin_PF.testLoginNegativeVWO" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebAutomationFramework" />
       <extension name="coverage">
         <pattern>
@@ -88,7 +138,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test_code.test" />
-      <option name="MAIN_CLASS_NAME" value="test_code.test.TestVWOLogin_POM" />
+      <option name="MAIN_CLASS_NAME" value="test_code.test.TestVWOLogin_PF" />
       <option name="METHOD_NAME" value="testLoginNegativeVWO" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -99,46 +149,31 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng.xml" />
-        <item itemvalue="TestNG.TestVWOLogin_POM" />
-        <item itemvalue="TestNG.TestVWOLogin_POM.testLoginNegativeVWO" />
+        <item itemvalue="TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng-qa.xml" />
+        <item itemvalue="TestNG.TestVWOLogin_PF_DM" />
+        <item itemvalue="TestNG.TestVWOLogin_PF" />
+        <item itemvalue="TestNG.TestVWOLogin_PF.testLoginNegativeVWO" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0cc5745e-255c-4431-8cd2-05ca84cf48c7" name="Changes" comment="" />
-      <created>1723467652560</created>
+      <changelist id="c1648841-7045-4e10-a39c-0aa6992718e7" name="Changes" comment="" />
+      <created>1723545852795</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1723467652560</updated>
+      <updated>1723545852795</updated>
     </task>
-    <task id="LOCAL-00001" summary="first commit">
+    <task id="LOCAL-00001" summary="frameWork">
       <option name="closed" value="true" />
-      <created>1723471165955</created>
+      <created>1724228787935</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1723471165955</updated>
+      <updated>1724228787935</updated>
     </task>
-    <task id="LOCAL-00002" summary="Basic Page object model">
-      <option name="closed" value="true" />
-      <created>1723541893689</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1723541893689</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Basic Page object model">
-      <option name="closed" value="true" />
-      <created>1723542889566</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1723542889566</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,28 +181,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="first commit" />
-    <MESSAGE value="Basic Page object model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic Page object model" />
+    <MESSAGE value="frameWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="frameWork" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
