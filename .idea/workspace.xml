@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1648841-7045-4e10-a39c-0aa6992718e7" name="Changes" comment="frameWork">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/Page/pageFatory/LoginPage_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/base/CommonToAllPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/driver/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/driver/DriverManagerTL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/utils/Propertyreader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/utils/utilsExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/base/CommonToAllTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/test/StaleElementException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/test/TestVWOLogin_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/test/TestVWOLogin_PF_DM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/test/qa/TestVWOLogin_PF_DM_QA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-qa.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c1648841-7045-4e10-a39c-0aa6992718e7" name="Changes" comment="pom ,pf , DriverManager">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageObjectModel/DashboardPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/Page/PageObjectModel/DashboardPage_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageObjectModel/LoginPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebAutomationframe/Page/PageObjectModel/LoginPage_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/utilsExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test_code/test/TestVWOLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/test/TestVWOLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test_code/test/TestVWOLogin_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/test/TestVWOLogin_POM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,21 +31,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng-qa.xml.executor": "Run",
-    "TestNG.TestVWOLogin_PF.executor": "Run",
-    "TestNG.TestVWOLogin_PF.testLoginNegativeVWO.executor": "Run",
-    "TestNG.TestVWOLogin_PF_DM.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/91844/IdeaProjects/WebAutomationFramework"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng-qa.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_PF.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_PF.testLoginNegativeVWO.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_PF_DM.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/91844/IdeaProjects/WebAutomationFramework&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.WebAutomationframe.driver" />
@@ -173,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724228787935</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pom ,pf , DriverManager">
+      <option name="closed" value="true" />
+      <created>1724325142552</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724325142552</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,7 +175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="frameWork" />
-    <option name="LAST_COMMIT_MESSAGE" value="frameWork" />
+    <MESSAGE value="pom ,pf , DriverManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom ,pf , DriverManager" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
