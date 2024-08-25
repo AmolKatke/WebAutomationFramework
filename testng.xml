@@ -3,22 +3,8 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/91844/IdeaProjects/WebAutomationFramework">
         <classes>
-            <class name="com.WebAutomationframe.test.TestVWOLogin">
-                <methods>
-                    <include name="testLoginNegativeVWO"/>
-                </methods>
-            </class>
-            <class name="com.WebAutomationframe.test.TestVWOLogin_PF">
-                <methods>
-                    <include name="testLoginNegativeVWO"/>
-                </methods>
-            </class>
-            <class name="com.WebAutomationframe.test.TestVWOLogin_PF_DM">
-                <methods>
-                    <include name="testLoginNegativeVWO"/>
-                </methods>
-            </class>
-            <class name="com.WebAutomationframe.test.TestVWOLogin_POM">
+            
+             <class name="com.WebAutomationframe.test.TestVWOLogin_POM">
                 <methods>
                     <include name="testLoginNegativeVWO"/>
                     <include name="testLoginNegativeVWO2"/>
