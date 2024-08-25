@@ -1,6 +1,7 @@
 package com.WebAutomationframe.driver;
 
 import com.WebAutomationframe.utils.Propertyreader;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -8,6 +9,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 
 import java.io.FileNotFoundException;
+import java.util.Map;
 
 public class DriverManager {
     public static WebDriver driver;
@@ -30,9 +32,11 @@ public class DriverManager {
                     EdgeOptions edgeOptions = new EdgeOptions();
                     edgeOptions.addArguments("--start-maximized");
                     edgeOptions.addArguments("--guest");
+                    edgeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+                    edgeOptions.setCapability("timeouts", Map.of("pageLoad", 60000));
                     driver = new EdgeDriver(edgeOptions);
                     break;
-                case "chrome":
+                    case "chrome":
                     ChromeOptions chromeOptions = new ChromeOptions();
                     chromeOptions.addArguments("--start-maximized");
                     driver =new ChromeDriver(chromeOptions);
