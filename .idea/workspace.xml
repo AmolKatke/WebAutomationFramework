@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1648841-7045-4e10-a39c-0aa6992718e7" name="Changes" comment="POM update">
-      <change afterPath="$PROJECT_DIR$/allure-results/6e337b36-e46d-4fea-b08c-b5b137084706-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/879fc0a3-9323-4b7b-b278-00b9c2f8bfe0-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b67549f0-b1d9-486b-9dc3-91faa2d67fd5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/bcc6da26-bceb-4d39-8866-a6dca6814417-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/bd56a4c0-ac89-475c-b527-e40115d68649-result.json" afterDir="false" />
+    <list default="true" id="c1648841-7045-4e10-a39c-0aa6992718e7" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/com/WebAutomationframe/test/TestVWOLogin_PF_Selenoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-selenoid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-uat.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -56,34 +54,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.StaleElementException.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng-qa.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestVWOLogin.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestVWOLogin_PF.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestVWOLogin_PF.testLoginNegativeVWO.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestVWOLogin_PF_DM.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestVWOLogin_PF_DM.testLoginNegativeVWO.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestVWOLogin_PF_DM_QA.testLoginNegativeVWO.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestVWOLogin_POM.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.com.WebAutomationframe.test.TestVWOLogin_POM,testLoginNegativeVWO and 1 more.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/91844/IdeaProjects/WebAutomationFramework&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.49222222&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.StaleElementException.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng-qa.xml.executor": "Run",
+    "TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng.xml.executor": "Run",
+    "TestNG.TestVWOLogin.executor": "Run",
+    "TestNG.TestVWOLogin_PF.executor": "Run",
+    "TestNG.TestVWOLogin_PF.testLoginNegativeVWO.executor": "Run",
+    "TestNG.TestVWOLogin_PF_DM.executor": "Run",
+    "TestNG.TestVWOLogin_PF_DM.testLoginNegativeVWO.executor": "Run",
+    "TestNG.TestVWOLogin_PF_DM_QA.testLoginNegativeVWO.executor": "Run",
+    "TestNG.TestVWOLogin_POM.executor": "Run",
+    "TestNG.com.WebAutomationframe.test.TestVWOLogin_POM,testLoginNegativeVWO and 1 more.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/91844/IdeaProjects/WebAutomationFramework/src/test/java/com",
+    "last_opened_file_path": "C:/Users/91844/IdeaProjects/WebAutomationFramework",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "settings.editor.splitter.proportion": "0.49222222"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.WebAutomationframe.driver" />
@@ -227,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724615475973</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test">
+      <option name="closed" value="true" />
+      <created>1724617855276</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724617855276</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,7 +253,8 @@
     <MESSAGE value="frameWork" />
     <MESSAGE value="pom ,pf , DriverManager" />
     <MESSAGE value="POM update" />
-    <option name="LAST_COMMIT_MESSAGE" value="POM update" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
