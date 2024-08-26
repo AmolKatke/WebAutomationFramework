@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1648841-7045-4e10-a39c-0aa6992718e7" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/allure-results/4f6848fc-b8de-4c77-8fc0-5c2dece15668-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/60a6a4c4-6655-4803-b968-9e4217432f5d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7d203217-458f-462c-9a47-a8eafbb71a5a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/88880d36-34aa-4884-8481-20dbddd8a836-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9b320128-c3ee-4fc8-8945-e48c1a99897b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d0bc3fe2-9100-4c94-87d2-545c54c79e18-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/dc6bb160-30af-4daa-a738-404f6ae7b887-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/de4add8f-325f-4ebd-ab91-630a3a83ed00-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e60430f6-b4d2-4f87-8294-9d5f4e16a530-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ec752be2-9f67-461f-88ec-5bd7bb3106b1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/faa8db77-89d3-438a-90e4-d26314496f26-container.json" afterDir="false" />
+    <list default="true" id="c1648841-7045-4e10-a39c-0aa6992718e7" name="Changes" comment="Pom update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/test/TestVWOLogin_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/WebAutomationframe/test/TestVWOLogin_POM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724617855276</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Pom update">
+      <option name="closed" value="true" />
+      <created>1724664618123</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724664618123</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +259,8 @@
     <MESSAGE value="pom ,pf , DriverManager" />
     <MESSAGE value="POM update" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Pom update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pom update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
