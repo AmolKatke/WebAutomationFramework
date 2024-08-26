@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1648841-7045-4e10-a39c-0aa6992718e7" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/com/WebAutomationframe/test/TestVWOLogin_PF_Selenoid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-selenoid.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-uat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4f6848fc-b8de-4c77-8fc0-5c2dece15668-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/60a6a4c4-6655-4803-b968-9e4217432f5d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7d203217-458f-462c-9a47-a8eafbb71a5a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/88880d36-34aa-4884-8481-20dbddd8a836-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9b320128-c3ee-4fc8-8945-e48c1a99897b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d0bc3fe2-9100-4c94-87d2-545c54c79e18-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/dc6bb160-30af-4daa-a738-404f6ae7b887-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/de4add8f-325f-4ebd-ab91-630a3a83ed00-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e60430f6-b4d2-4f87-8294-9d5f4e16a530-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ec752be2-9f67-461f-88ec-5bd7bb3106b1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/faa8db77-89d3-438a-90e4-d26314496f26-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,35 +62,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.StaleElementException.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng-qa.xml.executor": "Run",
-    "TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng.xml.executor": "Run",
-    "TestNG.TestVWOLogin.executor": "Run",
-    "TestNG.TestVWOLogin_PF.executor": "Run",
-    "TestNG.TestVWOLogin_PF.testLoginNegativeVWO.executor": "Run",
-    "TestNG.TestVWOLogin_PF_DM.executor": "Run",
-    "TestNG.TestVWOLogin_PF_DM.testLoginNegativeVWO.executor": "Run",
-    "TestNG.TestVWOLogin_PF_DM_QA.testLoginNegativeVWO.executor": "Run",
-    "TestNG.TestVWOLogin_POM.executor": "Run",
-    "TestNG.com.WebAutomationframe.test.TestVWOLogin_POM,testLoginNegativeVWO and 1 more.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/91844/IdeaProjects/WebAutomationFramework/src/test/java/com",
-    "last_opened_file_path": "C:/Users/91844/IdeaProjects/WebAutomationFramework",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "settings.editor.splitter.proportion": "0.49222222"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.StaleElementException.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng-qa.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/91844/IdeaProjects/WebAutomationFramework/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_PF.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_PF.testLoginNegativeVWO.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_PF_DM.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_PF_DM.testLoginNegativeVWO.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_PF_DM_QA.testLoginNegativeVWO.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_POM.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.com.WebAutomationframe.test.TestVWOLogin_POM,testLoginNegativeVWO and 1 more.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/91844/IdeaProjects/WebAutomationFramework/src/test/java/com&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/91844/IdeaProjects/WebAutomationFramework&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.49222222&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.WebAutomationframe.driver" />
