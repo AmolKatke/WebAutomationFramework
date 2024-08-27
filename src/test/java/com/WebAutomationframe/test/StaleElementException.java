@@ -12,10 +12,11 @@ public class StaleElementException {
 
         WebDriver driver =new EdgeDriver();
         driver.get("https://google.com");
-        WebElement serchbox_textarea = driver.findElement(By.name("q"));
-        driver.navigate().refresh(); //u have again serch Element
-        WebElement serchbox_textarea1 = driver.findElement(By.name("q"));
-
-        serchbox_textarea.sendKeys("thetesttingacademy");
+//        WebElement serchbox_textarea = driver.findElement(By.name("q"));
+//        driver.navigate().refresh(); //u have again serch Element
+//        WebElement serchbox_textarea1 = driver.findElement(By.name("q"));
+//
+//        serchbox_textarea.sendKeys("thetesttingacademy");
+        driver.quit();
     }
 }
