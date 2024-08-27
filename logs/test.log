@@ -55,3 +55,9 @@
 2024-08-26 13:51:32 INFO  TestVWOLogin_PF_DM - Starting Test
 2024-08-26 13:51:32 INFO  TestVWOLogin_PF_DM - Opening the URL
 2024-08-26 13:51:44 INFO  TestVWOLogin_PF_DM - Verifying the Result
+2024-08-27 12:32:34 INFO  TestVWOLogin_PF_DM_QA - Starting Test in QA Environment
+2024-08-27 12:32:34 INFO  TestVWOLogin_PF_DM_QA - Opening the URL
+2024-08-27 12:32:46 INFO  TestVWOLogin_PF_DM_QA - Verifying the Result
+2024-08-27 12:33:29 INFO  TestVWOLogin_PF_DM - Starting Test
+2024-08-27 12:33:29 INFO  TestVWOLogin_PF_DM - Opening the URL
+2024-08-27 12:33:42 INFO  TestVWOLogin_PF_DM - Verifying the Result
