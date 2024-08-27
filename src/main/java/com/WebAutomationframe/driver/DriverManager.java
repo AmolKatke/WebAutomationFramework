@@ -28,7 +28,10 @@ public class DriverManager {
         String browser = Propertyreader.readKey("browser");
                     EdgeOptions edgeOptions = new EdgeOptions();
                     edgeOptions.addArguments("--start-maximized");
-                    edgeOptions.addArguments("--guest");
+                    edgeOptions.addArguments("--headless");
+                    edgeOptions.addArguments("--disable-gpu");
+                    edgeOptions.addArguments("--no-sandbox");
+                   // edgeOptions.addArguments("--guest");
                     edgeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
                     edgeOptions.setCapability("timeouts", Map.of("pageLoad", 60000));
                     driver = new EdgeDriver(edgeOptions);
