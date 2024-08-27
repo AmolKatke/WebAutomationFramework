@@ -1,6 +1,7 @@
 package com.WebAutomationframe.test;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -14,6 +15,8 @@ public class TestVWOLogin_POM {
         String error_msg_text = loginPagePom.loginToVWOInvalidCreds("admin@gmail.com","admin");
         Assert.assertEquals(error_msg_text,"Your email, password, IP address or location did not match");
         driver.quit();
+
+
     }
     @Test
     public void testLoginNegativeVWO2() throws InterruptedException {
@@ -23,6 +26,7 @@ public class TestVWOLogin_POM {
         Assert.assertEquals(error_msg_text,"Your email, password, IP address or location did not match");
         Thread.sleep(4000);
         driver.quit();
+
     }
 
 
