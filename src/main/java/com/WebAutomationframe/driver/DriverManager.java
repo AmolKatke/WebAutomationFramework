@@ -25,7 +25,7 @@ public class DriverManager {
         DriverManager.driver = driver;
     }
     public static void init() throws FileNotFoundException {
-        String browser = Propertyreader.readKey("browser");
+        //String browser = Propertyreader.readKey("browser");
                     EdgeOptions edgeOptions = new EdgeOptions();
                     edgeOptions.addArguments("--start-maximized");
                     edgeOptions.addArguments("--headless");
