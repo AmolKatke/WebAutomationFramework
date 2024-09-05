@@ -1,6 +1,6 @@
 package com.WebAutomationframe.base;
 import com.WebAutomationframe.utils.Propertyreader;
-import com.WebAutomationframe.utils.Propertyreader;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;

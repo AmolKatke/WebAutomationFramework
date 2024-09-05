@@ -25,24 +25,29 @@ public class DriverManager {
         DriverManager.driver = driver;
     }
     public static void init() throws FileNotFoundException {
-        //String browser = Propertyreader.readKey("browser");
-                    EdgeOptions edgeOptions = new EdgeOptions();
-                    edgeOptions.addArguments("--start-maximized");
-                    edgeOptions.addArguments("--headless");
-                    edgeOptions.addArguments("--disable-gpu");
-                    edgeOptions.addArguments("--no-sandbox");
-                   // edgeOptions.addArguments("--guest");
+        String browser = Propertyreader.readKey("browser");
+        EdgeOptions edgeOptions = getEdgeOptions();
+        // edgeOptions.addArguments("--guest");
                     edgeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
                     edgeOptions.setCapability("timeouts", Map.of("pageLoad", 60000));
                     driver = new EdgeDriver(edgeOptions);
+               }
 
-
-
-        }
+    public static EdgeOptions getEdgeOptions() {
+        EdgeOptions edgeOptions = new EdgeOptions();
+        edgeOptions.addArguments("--start-maximized");
+        edgeOptions.addArguments("--headless");
+        edgeOptions.addArguments("--disable-gpu");
+        edgeOptions.addArguments("--no-sandbox");
+        edgeOptions.addArguments("--disable-dev-shm-usage"); // Overcome limited resource problems
+        edgeOptions.addArguments("--remote-debugging-port=9222"); // Enable remote debugging
+        return edgeOptions;
+    }
 
     public static void down(){
         if (DriverManager.driver!=null) {
             DriverManager.driver.quit();
+            driver=null;
         }
 
   }
