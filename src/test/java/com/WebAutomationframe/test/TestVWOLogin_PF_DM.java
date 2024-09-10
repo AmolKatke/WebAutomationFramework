@@ -8,7 +8,10 @@ import org.testng.annotations.Test;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.io.FileNotFoundException;
-import static com.WebAutomationframe.driver.DriverManager.driver;
+
+import static com.WebAutomationframe.driver.DriverManager.*;
+//import static com.WebAutomationframe.driver.DriverManagerTL.driver;
+
 
 public class TestVWOLogin_PF_DM extends CommonToAllTest  {
     private static final Logger logger = LogManager.getLogger(TestVWOLogin_PF_DM.class);

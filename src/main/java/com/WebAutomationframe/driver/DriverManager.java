@@ -31,7 +31,8 @@ public class DriverManager {
                     edgeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
                     edgeOptions.setCapability("timeouts", Map.of("pageLoad", 60000));
                     driver = new EdgeDriver(edgeOptions);
-               }
+
+    }
 
     public static EdgeOptions getEdgeOptions() {
         EdgeOptions edgeOptions = new EdgeOptions();

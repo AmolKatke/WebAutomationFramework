@@ -9,11 +9,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.FileNotFoundException;
 import java.time.Duration;
 
+//import static com.WebAutomationframe.driver.DriverManager.getDriver;
 import static com.WebAutomationframe.driver.DriverManager.getDriver;
+
 //import static com.thetestingacademy.driver.DriverManagerSelenoid.getDriver;
 
 
-public class CommonToAllPage {
+public class CommonToAllPage  {
 
 // If you want to call something before every Page Object Class call, Put your Code here")
 //
